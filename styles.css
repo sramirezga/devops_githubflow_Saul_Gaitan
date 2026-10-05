@@ -103,8 +103,92 @@ section h2 {
 /* PIE DE PÁGINA */
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+background: linear-gradient(135deg, #124f70, #0d354d);
+color: white;
+margin-top: 40px;
+}
+
+.footer-contenido {
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+padding: 45px 0;
+display: grid;
+grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+gap: 35px;
+}
+
+.footer-columna h3 {
+color: #ffffff;
+font-size: 18px;
+margin-bottom: 15px;
+position: relative;
+}
+
+.footer-columna h3::after {
+content: "";
+display: block;
+width: 35px;
+height: 3px;
+background-color: #2aa9df;
+margin-top: 8px;
+border-radius: 2px;
+}
+
+.footer-columna p {
+color: #d5e5ec;
+line-height: 1.7;
+font-size: 14px;
+}
+
+.footer-columna ul {
+list-style: none;
+}
+
+.footer-columna li {
+margin-bottom: 9px;
+}
+
+.footer-columna a {
+color: #d5e5ec;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.footer-columna a:hover {
+color: #4fc3f7;
+}
+
+.footer-boton {
+display: inline-block;
+margin-top: 15px;
+padding: 10px 16px;
+background-color: #1677a8;
+color: white !important;
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s ease,
+transform 0.3s ease;
+}
+
+.footer-boton:hover {
+background-color: #2196c9;
+transform: translateY(-2px);
+}
+
+.footer-bottom {
+border-top: 1px solid rgba(255, 255, 255, 0.15);
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+padding: 20px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+.footer-bottom p {
+color: #b9ced8;
+font-size: 13px;
 }
